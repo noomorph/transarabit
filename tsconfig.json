@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "sourceRoot": "./src",
+        "outDir": "./build",
+        "target": "es5"
+    }
+}
