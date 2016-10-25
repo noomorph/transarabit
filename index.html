@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <style class="cp-pen-styles">
+        body {
+            font-family: sans-serif;
+        }
+        
+        .switches {
+            text-align: center;
+        }
+        
+        .split-2 {
+            display: flex;
+        }
+        
+        .split-2> .split {
+            flex-grow: 1;
+        }
+        
+        .split> textarea {
+            width: 90%;
+            min-height: 100px;
+            margin: 0 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="switches">
+        <div>
+            <input type="radio" name="direction" value="he-ar" id="he-ar" />
+            <label for="he-ar">HE -&gt; AR</label>
+        </div>
+        <div>
+            <input type="radio" name="direction" value="ar-he" id="ar-he" />
+            <label for="ar-he">AR -&gt; HE</label>
+        </div>
+    </div>
+
+    <div class="split-2">
+        <div class="split">
+            <textarea id="he"></textarea>
+        </div>
+        <div class="split">
+            <textarea id="ar"></textarea>
+        </div>
+    </div>
+    <script src="ar.js"></script>
+    <script src="he.js"></script>
+    <script src="main.js"></script>
+    <script src="test.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
