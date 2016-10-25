@@ -5,7 +5,7 @@
             "check-space"
         ],
         "indent": [true,
-            "spaces"
+            "tabs"
         ],
         "linebreak-style": [true, "CR"],
         "one-line": [true,

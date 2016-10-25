@@ -1,4 +1,4 @@
-var HE = {
+export default {
     ALEF: 1488,
     AYIN: 1506,
     BET: 1489,

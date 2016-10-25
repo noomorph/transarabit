@@ -1,4 +1,4 @@
-var AR = {
+export default {
     ALIF: 0x0627,
     ALIF_HAMZA: 0x0623,
     ALIF_MADDAH: 0x0622,
@@ -42,4 +42,3 @@ var AR = {
     ZA: 0x0638,
     ZAYN: 0x0632,
 };
-
